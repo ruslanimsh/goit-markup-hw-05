@@ -464,7 +464,17 @@ padding: 20px 24px;
     display: flex;
     gap: 30px;
 }
-.icon{
+/* .icon{
+    width: 170px;
+    height: 92px;
+    outline: 1px solid #AFB1B8 ;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+.group-logo-link{
     width: 170px;
     height: 92px;
     outline: 1px solid #AFB1B8 ;
@@ -481,12 +491,12 @@ padding: 20px 24px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.icon:hover,
-.icon:focus {
+.group-logo-link:hover,
+.group-logo-link:focus {
     outline: 1px solid #2196F3 ;
 }
-.icon:hover .group-logo-icon,
-.icon:focus .group-logo-icon{
+.group-logo-link:hover .group-logo-icon,
+.group-logo-link:focus .group-logo-icon{
     fill: #2196F3;
    }
 /* footer */
